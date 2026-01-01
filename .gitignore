@@ -1,7 +1,14 @@
-.venv/
+# Python
 __pycache__/
+*.pyc
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Ignore RAW data only
 data/raw/
-*.csv
-*.pkl
-*.joblib
+
+# OS junk
+.DS_Store
+Thumbs.db
