@@ -1,0 +1,49 @@
+Linear Regression
+
+z=w1​x1​+w2​x2​+⋯+b
+
+we train, on different sets of weights, and bs, until we get least error, that is linear Regression. We get values from -infinity to infinity
+
+
+example: price = 50_000 * bedrooms + 20_000 * bathrooms + 10_000
+
+
+Logistic Regression
+
+basically same as linear Regression, but uses a signoid function
+p=σ(z)=1/(1+ exp(-z))
+
+p=P(y=1∣x)
+log((1−p)/p​)=w1​x1​+⋯+b
+
+utilizes log loss
+
+
+Overfitting
+THIS exact dog with this exact spot pattern is a dog
+Underfitting
+ALL animals are dogs
+
+Bias–Variance Tradeoff
+
+Bias = how wrong the model is by design, High bias: Underfitting
+Variance = how sensitive the model is to data,  High variance: Overfitting
+
+Managing Bias and Variance, is what our intent is for our purpose.
+
+
+
+Regularization
+Training minimizes loss, regulation adds penalty, (basically imagine a knob, changes weight by how much each time)
+Loss+λ⋅Penalty(weights)
+
+L2 Regularization(Ridge)
+Penalty:   ∑w2
+
+L1 Regularization(lasso)
+Penalty:  ∑∣w∣
+
+
+
+XGBoost = Gradient Boosted Decision Trees
+LogLoss=−[ylog(p)+(1−y)log(1−p)]
