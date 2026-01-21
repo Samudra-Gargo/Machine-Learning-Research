@@ -1,3 +1,7 @@
+doc file: https://docs.google.com/document/d/19X8nYpwktiGCqg1jukvy2Xc8JaxtA6LoP83zBLRcg2E/edit?tab=t.0
+
+
+
 Linear Regression
 
 z=w1​x1​+w2​x2​+⋯+b
@@ -47,3 +51,29 @@ Penalty:  ∑∣w∣
 
 XGBoost = Gradient Boosted Decision Trees
 LogLoss=−[ylog(p)+(1−y)log(1−p)]
+
+
+
+Multiplayer Perception:
+Neural Network, you sent outputs to another neuron and get better results, each iteration is called an Epoch(s)
+Guess, change , repeat
+Output, Back propagation, Epoch(s)
+
+Activation funtion:
+WHen data is complicated, it might not be easy to use linear funtion, we might use other functions
+
+
+
+Back Propagation:
+https://www.geeksforgeeks.org/machine-learning/backpropagation-in-neural-network/
+
+its iteratively changing the weights and biases for all the neurons, then averages over the entire training nudges the weights and biases,
+https://youtu.be/tIeHLnjs5U8?si=v0w7OUI1ymnn3bp6
+
+
+to learn pycharm/neural network
+https://www.kaggle.com/code/edomingo/intro-to-pytorch-in-10-code-cells/notebook
+
+
+Stochastic Gradient Descent
+Its basically shuffled data, take a piece of pie at a time approach
