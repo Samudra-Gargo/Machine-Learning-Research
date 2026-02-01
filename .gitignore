@@ -2,8 +2,9 @@
 __pycache__/
 *.pyc
 
-# Virtual env
+# Virtual environments
 .venv/
+.venv_ab310/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -12,5 +13,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Raw data (keep processed)
-data/raw/
+# Data (DO NOT COMMIT DATASETS)
+data/
+!data/README.md
+
+# Torch
+*.pt
